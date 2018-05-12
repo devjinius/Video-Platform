@@ -1,9 +1,9 @@
 import React from 'react'
-import Mypage from './components/Mypage';
+import MyPage from './components/mypage/js/MyPage';
 
 export default () => (
   <div>
     Hello, from Next.js!
-    <Mypage />
+    <MyPage />
   </div>
 );

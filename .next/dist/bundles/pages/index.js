@@ -73,9 +73,22 @@ module.exports =
 /******/ ({
 
 /***/ "./pages/index.js":
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed: Error: [BABEL] C:\\Video-Platform\\pages\\index.js: .value is not a valid Plugin property\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\validation\\plugins.js:52:56\n    at Array.forEach (<anonymous>)\n    at validatePluginObject (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\validation\\plugins.js:50:20)\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:206:53\n    at cachedFunction (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\caching.js:40:17)\n    at loadPluginDescriptor (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:198:10)\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:54:16\n    at Array.map (<anonymous>)\n    at recurseDescriptors (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:53:36)\n    at loadFullConfig (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:103:6)\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\transform.js:26:33\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "C:\\Users\\senji\\Desktop\\git\\Video-Platform\\pages\\index.js";
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }, "Hello, from Next.js!");
+});
 
 /***/ }),
 
@@ -84,6 +97,13 @@ throw new Error("Module build failed: Error: [BABEL] C:\\Video-Platform\\pages\\
 
 module.exports = __webpack_require__("./pages/index.js");
 
+
+/***/ }),
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
 
 /***/ })
 

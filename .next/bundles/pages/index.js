@@ -4,10 +4,99 @@ module.exports =
           var comp = 
       webpackJsonp([4],{
 
-/***/ "./pages/index.js":
+/***/ "./node_modules/webpack/buildin/harmony-module.js":
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: Error: [BABEL] C:\\Video-Platform\\pages\\index.js: .value is not a valid Plugin property\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\validation\\plugins.js:52:56\n    at Array.forEach (<anonymous>)\n    at validatePluginObject (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\validation\\plugins.js:50:20)\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:206:53\n    at cachedFunction (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\caching.js:40:17)\n    at loadPluginDescriptor (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:198:10)\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:54:16\n    at Array.map (<anonymous>)\n    at recurseDescriptors (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:53:36)\n    at loadFullConfig (C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\config\\full.js:103:6)\n    at C:\\Video-Platform\\node_modules\\@babel\\core\\lib\\transform.js:26:33\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
+module.exports = function(originalModule) {
+	if(!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if(!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true,
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "E:\\workspace_study\\Video-Platform\\pages\\index.js";
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+
+
+var _default = function _default() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }, "Hello, from Next.js!");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(_default, "default", "E:\\workspace_study\\Video-Platform\\pages\\index.js");
+  leaveModule(module);
+})();
+
+;
+    (function (Component, route) {
+      if(!Component) return
+      if (false) return
+      module.hot.accept()
+      Component.__route = route
+
+      if (module.hot.status() === 'idle') return
+
+      var components = next.router.components
+      for (var r in components) {
+        if (!components.hasOwnProperty(r)) continue
+
+        if (components[r].Component.__route === route) {
+          next.router.update(r, Component)
+        }
+      }
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+  
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 

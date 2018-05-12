@@ -10,6 +10,7 @@
     "react-dom": "^16.3.2"
   },
   "scripts": {
-    "start": "next"
+    "start": "node app.js",
+    "build": "next build"
   }
 }

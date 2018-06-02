@@ -12,7 +12,7 @@
     "styled-components": "^3.3.0"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "next build && node app.js",
     "build": "next build"
   }
 }

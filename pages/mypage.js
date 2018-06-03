@@ -4,7 +4,7 @@ export default class MyPage extends React.Component{
     render() {
         return (
             <div>
-                Hello, this is my page
+                Hello, this is my page!!s
             </div>
         )
     }

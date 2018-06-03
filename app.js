@@ -33,7 +33,7 @@ NextApp
   .then(() => {
     // ExpressApp.use('/', CustomRouter);
 
-    ExpressApp.use('/my-next-app', NextRouter);
+    ExpressApp.use('/', NextRouter);
 
     ExpressApp.listen(PORT, err => {
       if (err) throw err;

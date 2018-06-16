@@ -6,11 +6,14 @@
   "dependencies": {
     "express": "^4.16.3",
     "next": "^6.0.1",
+    "open-color": "^1.6.3",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "styled-components": "^3.3.0"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "next build && node app.js",
     "build": "next build"
   }
 }

@@ -31,3 +31,5 @@ Thumbs.db
 
 /.next
 yarn.lock
+
+.vscode

@@ -27,6 +27,10 @@ const NextRouter = express.Router();
 //   return NextApp.render(req, res, 'route-b', Object.assign({}, req.query, req.param))
 // });
 NextRouter.get('*', (req, res) => NextHandler(req, res));
+NextRouter.get('/test', (req, res) => {
+  return NextApp.render(req, res, 'route-b', Object.assign({}, req.query, req.param))
+});
+
 
 NextApp
   .prepare()

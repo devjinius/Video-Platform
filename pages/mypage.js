@@ -3,7 +3,7 @@ import CommonButton from '../components/common/CommonButton';
 import HeaderComponent from '../components/header/HeaderComponent';
 import FooterComponent from '../components/footer/FooterComponent';
 
-export default class MyPage extends React.Component{
+export default class extends React.Component {
     render() {
         return (
             <div>

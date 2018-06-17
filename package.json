@@ -13,7 +13,8 @@
     "styled-components": "^3.3.0"
   },
   "scripts": {
-    "start": "next build && node app.js",
+    "dev" : "next",
+    "start": "node app.js",
     "build": "next build"
   }
 }

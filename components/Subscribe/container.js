@@ -1,25 +1,10 @@
 import React, { Component } from "react"
 import Subscribe from "./presenter"
-import * as animationData from "./jump.json"
 
 class Container extends Component {
   render() {
-    const buttonStyle = {
-      display: "block",
-      margin: "10px auto"
-    }
-
-    const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: animationData,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    }
-
     return [
-      <Subscribe buttonStyle={buttonStyle} defaultOptions={defaultOptions} />,
+      <Subscribe />,
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"

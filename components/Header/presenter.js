@@ -1,9 +1,12 @@
 import React from "react"
 import { Navbar, Nav, NavItem, Container, Grid, Alert } from "react-bootstrap"
+import Wrapper from "./styles"
 
 const Header = props => {
   return (
-    <Navbar inverse collapseOnSelect>
+    <>
+    <Wrapper/>
+    <Navbar collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
           <a href="#brand">React-Bootstrap</a>
@@ -15,7 +18,7 @@ const Header = props => {
           <NavItem eventKey={1} href="#">
             Home
           </NavItem>
-          <NavItem eventKey={2} href="#">
+          <NavItem eventKey={2} href="#" className={".footer-top"}>
             즐겨찾기
           </NavItem>
           <NavItem eventKey={3} href="#">
@@ -24,6 +27,8 @@ const Header = props => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    <a className='red'>test</a>
+    </>
   )
 }
 export default Header

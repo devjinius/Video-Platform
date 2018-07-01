@@ -15,11 +15,7 @@
 .settings/
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+
 
 # e2e
 /e2e/*.js
@@ -31,5 +27,3 @@ Thumbs.db
 
 /.next
 yarn.lock
-
-.vscode

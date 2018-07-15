@@ -9,9 +9,7 @@ import PageTemplate from "../components/PageTemplate/PageTemplate";
 export default () => (
   <>
   <PageTemplate>
-    <Liked />
-    <Subscribe />
-    <Video />
+    <div>hello</div>
   </PageTemplate>
   </>
 )

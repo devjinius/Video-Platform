@@ -8,8 +8,8 @@ import PageTemplate from "../components/PageTemplate/PageTemplate";
 
 export default () => (
   <>
-    <PageTemplate>
-      <div>hello</div>
-    </PageTemplate>
+  <PageTemplate>
+    <div>hello</div>
+  </PageTemplate>
   </>
 )

@@ -1,10 +1,10 @@
 import React, { Component } from "react"
-import Header from "./presenter"
+import Navigator from "./presenter"
 
 class Container extends Component {
   render() {
     return [
-      <Header />
+      <Navigator />,
     ]
   }
 }

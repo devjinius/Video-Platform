@@ -31,10 +31,12 @@ const Footer = props => {
       </footer>
       <style jsx>{`
         .footer-top {
-          background-color: #aa66cc;
+          background-color: #000000;
+          color: #333;
         }
         .footer-bottom {
-          background-color: #9933cc;
+          background-color: #000000;
+          color: #333;
         }
         .footer-bottom > a {
           color: inherit;

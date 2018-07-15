@@ -1,15 +1,13 @@
 import React from 'react';
 import Header from '../Header/';
-import Footer from "../Footer"
+import Footer from "../Footer";
 
-const PageTemplate = ({ children }) => {
+export default ({ children }) => {
   return (
-    <div>
+    <>
       <Header />
       {children}
       <Footer />
-    </div>
+    </>
   );
 };
-
-export default PageTemplate;

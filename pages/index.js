@@ -4,15 +4,15 @@ import Header from '../components/Header';
 import Liked from '../components/Liked';
 import Subscribe from '../components/Subscribe';
 import Video from '../components/Video';
-import Footer from '../components/Footer';
+import PageTemplate from '../components/PageTemplate/PageTemplate';
 
 export default () => (
   <>
-    <Header />
-    <Liked />
-    <Grid>
-      <Video />
-    </Grid>
-    <Footer />
+    <PageTemplate>
+      <Liked />
+      <Grid>
+        <Video />
+      </Grid>
+    </PageTemplate>
   </>
 );

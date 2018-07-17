@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head'
 
 class Bootstrap extends React.Component {
     render() {

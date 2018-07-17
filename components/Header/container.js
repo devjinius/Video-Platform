@@ -1,13 +1,9 @@
-import React, { Component } from "react"
-import Header from "./presenter"
-import BootStrap from "../common/Bootstrap"
+import React, { Component } from 'react'
+import Header from './presenter'
 
 class Container extends Component {
   render() {
-    return [
-      <Header />,
-      <BootStrap />,
-    ]
+    return [<Header />]
   }
 }
 

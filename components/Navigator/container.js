@@ -1,10 +1,10 @@
 import React, { Component } from "react"
-import Subscribe from "./presenter"
+import Navigator from "./presenter"
 
 class Container extends Component {
   render() {
     return [
-      <Subscribe />,
+      <Navigator />,
     ]
   }
 }

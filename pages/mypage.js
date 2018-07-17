@@ -1,18 +1,15 @@
-import React from 'react'
-import CommonButton from '../components/common/CommonButton';
-import HeaderComponent from '../components/header/HeaderComponent';
-import FooterComponent from '../components/footer/FooterComponent';
+import React from "react"
+import { Grid, Alert } from "react-bootstrap"
+import Header from "../components/Header"
+import Liked from "../components/Liked"
+import Subscribe from "../components/Subscribe"
+import Video from "../components/Video"
+import PageTemplate from "../components/PageTemplate/PageTemplate";
 
-export default class extends React.Component {
-    render() {
-        return (
-            <div>
-                <HeaderComponent />
-                Hello, this is my page!!s
-                <CommonButton>컴포넌트 테스트 버튼</CommonButton>
-                <FooterComponent />
-
-            </div>
-        )
-    }
-} 
+export default () => (
+  <>
+  <PageTemplate>
+    <div>hello</div>
+  </PageTemplate>
+  </>
+)

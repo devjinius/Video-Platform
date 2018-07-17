@@ -1,18 +1,24 @@
 import React from 'react';
-import { Grid, Alert } from 'react-bootstrap';
-import Header from '../components/Header';
-import Liked from '../components/Liked';
-import Subscribe from '../components/Subscribe';
-import Video from '../components/Video';
-import PageTemplate from '../components/PageTemplate/PageTemplate';
+import { Grid } from 'react-bootstrap';
+import Liked from 'components/Liked';
+import Video from 'components/Video';
+import Navigator from 'components/Navigator';
+import Footer from "components/Footer";
+import Head from 'next/head'
+import Bootstrap from 'common/Bootstrap'
 
 export default () => (
   <>
-    <PageTemplate>
-      <Liked />
-      <Grid>
-        <Video />
-      </Grid>
-    </PageTemplate>
+    <Head>
+      <Bootstrap/>
+    </Head>
+
+    
+    <Navigator />
+    <Liked />
+    <Grid>
+      <Video />
+    </Grid>
+    <Footer />
   </>
 );

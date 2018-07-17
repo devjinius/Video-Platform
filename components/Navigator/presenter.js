@@ -1,5 +1,5 @@
-import React from "react"
-import { Navbar, Nav, NavItem, Container, Grid, Alert } from "react-bootstrap"
+import React from 'react'
+import { Navbar, Nav, NavItem } from 'react-bootstrap'
 
 const Navigator = props => {
   return (

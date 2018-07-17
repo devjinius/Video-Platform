@@ -1,5 +1,4 @@
 import React from 'react';
-import { footer } from 'react-bootstrap';
 
 const Footer = props => {
   return (

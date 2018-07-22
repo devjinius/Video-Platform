@@ -1,6 +1,7 @@
 const path = require("path");
+const withCSS = require('@zeit/next-css')
 
-module.exports = {
+module.exports = withCSS({
     webpack(config, { dev }) {
         config.devServer = config.devServer || {}
         config.devServer.proxy = {
@@ -15,6 +16,8 @@ module.exports = {
             }
         }
 
+        config.module.rules.push({ test: /\.css$/, loader: ['css-loader', 'style-loader', 'postcss-loader'] });
+
         config.resolve.alias = {
             'common': path.join(__dirname, './components/common/'),
             'components': path.join(__dirname, './components/'),
@@ -25,4 +28,4 @@ module.exports = {
 
         return config
     }
-}
+})

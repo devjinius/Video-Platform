@@ -1,20 +1,12 @@
-//import { connect } from "react-redux"
-import Container from "./container"
+import React from "react"
+import Head from 'next/head';
+import 'public/css/bootstrap.css';
 
-// const mapStateToProps = (state, ownProps) => {
-//   const { user } = state
-//   return {
-//     isLoggedIn: user.isLoggedIn
-//   }
-// }
-
-//액션을 위한 디스패치
-// const mapDispatchToProps = (dispatch, ownProps) => {
-//   return {
-//     getFeed: () => {
-//       return dispatch(photoActions.getFeed());
-//     }
-//   };
-// };
-
-export default Container
+const Header = () => {
+  return (
+    <Head>
+      <link rel="stylesheet" href="/_next/static/style.css" />
+    </Head>
+  )
+}
+export default Header

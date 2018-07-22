@@ -10,9 +10,7 @@ export default () => (
   <>
     <PageTemplate>
       <Liked />
-      <Grid>
-        <Video />
-      </Grid>
+      <Video />
     </PageTemplate>
   </>
 );

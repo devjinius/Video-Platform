@@ -10,7 +10,7 @@ const fullPageOptions = {
 
   // 이건 터치입니당.
   touchSensitivity: 3,
-  scrollSpeed: 500,
+  scrollSpeed: 200,
   hideScrollBars: true,
   enableArrowKeys: true
 };

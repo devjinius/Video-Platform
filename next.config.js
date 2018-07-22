@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
     webpack(config, { dev }) {
         config.devServer = config.devServer || {}
@@ -12,6 +14,12 @@ module.exports = {
                 //pathRewrite: { '^/api': '/api' }
             }
         }
+
+        config.resolve.alias = {
+            'common': path.join(__dirname, './components/common/'),
+            'components': path.join(__dirname, './components/'),
+        };
+
 
         //config.devServer.proxy = 'http://localhost:7000/api'
 

@@ -1,7 +1,5 @@
 import React from 'react';
-
-require("public/css/bootstrap.css");
-require("public/css/test.css");
+import 'public/css/bootstrap.css';
 
 class Bootstrap extends React.Component {
     render() {

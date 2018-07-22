@@ -4,7 +4,6 @@ import Liked from 'components/Liked';
 import Video from 'components/Video';
 import PageTemplate from 'components/PageTemplate/PageTemplate';
 
-//require("common/bootstrap.min.css");
 
 export default () => (
   <>

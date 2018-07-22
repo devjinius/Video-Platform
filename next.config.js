@@ -16,13 +16,13 @@ module.exports = withCSS({
             }
         }
 
-        config.module.rules.push({ test: /\.css$/, loader: ['css-loader', 'style-loader', 'postcss-loader'] });
-
         config.resolve.alias = {
             'common': path.join(__dirname, './components/common/'),
             'components': path.join(__dirname, './components/'),
-        };
+            'public': path.join(__dirname, './public/'),
+        }
 
+        //config.module.rules.push({ test: /\.css$/, loader: ['css-loader', 'style-loader', 'postcss-loader'] });
 
         //config.devServer.proxy = 'http://localhost:7000/api'
 

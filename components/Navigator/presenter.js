@@ -1,9 +1,9 @@
-import React from "react"
-import { Navbar, Nav, NavItem, Container, Grid, Alert } from "react-bootstrap"
+import React from 'react';
+import { Navbar, Nav, NavItem, Container, Grid, Alert } from 'react-bootstrap';
 
 const Navigator = props => {
   return (
-    <Navbar inverse collapseOnSelect>
+    <Navbar inverse collapseOnSelect fixedTop>
       <Navbar.Header>
         <Navbar.Brand>
           <a href="#brand">React-Bootstrap</a>
@@ -24,6 +24,6 @@ const Navigator = props => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-  )
-}
-export default Navigator
+  );
+};
+export default Navigator;

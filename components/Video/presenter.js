@@ -99,7 +99,9 @@ fullPageOptions.slides = slides;
 const Video = props => {
   return (
     <>
-      <Fullpage {...fullPageOptions} />
+      <div>
+        <Fullpage {...fullPageOptions} />
+      </div>
       <style jsx>{`
         .video-text {
           margin-bottom: 10px;

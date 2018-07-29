@@ -12,13 +12,13 @@ const Navigator = props => {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
-          <NavItem eventKey={1} href="#">
+          <NavItem eventKey={1} href="/">
             Home
           </NavItem>
           <NavItem eventKey={2} href="#">
             즐겨찾기
           </NavItem>
-          <NavItem eventKey={3} href="#">
+          <NavItem eventKey={3} href="/mypage">
             마이페이지
           </NavItem>
         </Nav>

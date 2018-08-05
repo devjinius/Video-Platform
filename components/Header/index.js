@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import 'public/css/bootstrap.css';
+import 'public/css/login.css';
 
 const Header = () => {
   return (

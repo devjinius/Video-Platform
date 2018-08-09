@@ -1,4 +1,4 @@
-var path = require('path')
+const path = require('path')
 const withCSS = require('@zeit/next-css')
 
 module.exports = withCSS({
@@ -15,17 +15,16 @@ module.exports = withCSS({
         //pathRewrite: { '^/api': '/api' }
       }
     }
-    config.resolve.alias = {
-      components: path.resolve('./components/'),
-      common: path.resolve('./common/')
-    }
-    //config.devServer.proxy = 'http://localhost:7000/api'
-    return config
-  },
 
-  exportPathMap: function(defaultPathMap) {
-    return {
-      '/': { page: '/index' }
+    config.resolve.alias = {
+      common: path.join(__dirname, './components/common/'),
+      components: path.join(__dirname, './components/'),
+      public: path.join(__dirname, './public/'),
+      img: path.join(__dirname, './public/img/')
     }
+
+    //config.devServer.proxy = 'http://localhost:7000/api'
+
+    return config
   }
 })

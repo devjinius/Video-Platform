@@ -9,11 +9,10 @@ import Bootstrap from 'common/Bootstrap'
 
 export default () => (
   <>
-    <Head>
+    {/* <Head>
       <Bootstrap/>
-    </Head>
+    </Head> */}
 
-    
     <Navigator />
     <Liked />
     <Grid>

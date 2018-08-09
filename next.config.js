@@ -1,6 +1,7 @@
 var path = require('path')
+const withCSS = require('@zeit/next-css')
 
-module.exports = {
+module.exports = withCSS({
   webpack(config, { dev }) {
     config.devServer = config.devServer || {}
     config.devServer.proxy = {
@@ -18,20 +19,6 @@ module.exports = {
       components: path.resolve('./components/'),
       common: path.resolve('./common/')
     }
-
-    config.module.loaders = [
-      {
-        test: /\.js/,
-        use: 'babel',
-        include: __dirname + '/common'
-      },
-      {
-        test: /\.css$/,
-        use: ['css-loader', 'style-loader'],
-        include: __dirname + '/common'
-      }
-    ]
-
     //config.devServer.proxy = 'http://localhost:7000/api'
     return config
   },
@@ -41,4 +28,4 @@ module.exports = {
       '/': { page: '/index' }
     }
   }
-}
+})

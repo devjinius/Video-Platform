@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Grid } from 'react-bootstrap';
 import Liked from 'components/Liked';
 import Video from 'components/Video';
@@ -20,19 +19,5 @@ export default () => (
       <Video />
     </Grid>
     <Footer />
-=======
-import { Grid, Alert } from 'react-bootstrap';
-import Liked from 'components/Liked';
-import Video from 'components/Video';
-import PageTemplate from 'components/PageTemplate/PageTemplate';
-
-
-export default () => (
-  <>
-    <PageTemplate>
-      <Liked />
-      <Video />
-    </PageTemplate>
->>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
   </>
 );

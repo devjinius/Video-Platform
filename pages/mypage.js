@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 import React from "react"
 import PageTemplate from "components/PageTemplate/PageTemplate";
-=======
-import React from 'react';
-import { Grid, Alert, Button } from 'react-bootstrap';
-import Liked from 'components/Liked';
-import Video from 'components/Video';
-import PageTemplate from 'components/PageTemplate/PageTemplate';
->>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 
 export default () => (
   <>

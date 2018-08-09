@@ -1299,10 +1299,13 @@ babylon@7.0.0-beta.42:
   version "7.0.0-beta.42"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.42.tgz#67cfabcd4f3ec82999d29031ccdea89d0ba99657"
 
+<<<<<<< HEAD
 babylon@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
+=======
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 balanced-match@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
@@ -1550,8 +1553,13 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
+<<<<<<< HEAD
   version "1.0.30000861"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000861.tgz#6f27840a130c10c0b1e00fab7729c1faf8f4ccd3"
+=======
+  version "1.0.30000869"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000869.tgz#c3da59fa8d9456df88a24bb292ede0e3798798cb"
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 
 caniuse-lite@^1.0.30000835:
   version "1.0.30000839"
@@ -1827,6 +1835,18 @@ cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
     parse-json "^2.2.0"
     require-from-string "^1.1.0"
 
+<<<<<<< HEAD
+=======
+cosmiconfig@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-4.0.0.tgz#760391549580bbd2df1e562bc177b13c290972dc"
+  dependencies:
+    is-directory "^0.3.1"
+    js-yaml "^3.9.0"
+    parse-json "^4.0.0"
+    require-from-string "^2.0.1"
+
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 create-ecdh@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.3.tgz#c9111b6f33045c4697f144787f9254cdc77c45ff"
@@ -2145,8 +2165,13 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 electron-to-chromium@^1.2.7:
+<<<<<<< HEAD
   version "1.3.50"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.50.tgz#7438b76f92b41b919f3fbdd350fbd0757dacddf7"
+=======
+  version "1.3.52"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.52.tgz#d2d9f1270ba4a3b967b831c40ef71fb4d9ab5ce0"
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 
 electron-to-chromium@^1.3.45:
   version "1.3.45"
@@ -2210,6 +2235,12 @@ errno@^0.1.2, errno@^0.1.3, errno@~0.1.7:
 error-ex@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.1.tgz#f855a86ce61adc4e8621c3cda21e7a7612c3a8dc"
+  dependencies:
+    is-arrayish "^0.2.1"
+
+error-ex@^1.3.1:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.2.tgz#b4ac40648107fdcdcfae242f428bea8a14d4f1bf"
   dependencies:
     is-arrayish "^0.2.1"
 
@@ -2294,8 +2325,13 @@ esprima@^2.6.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
 
 esprima@^4.0.0:
+<<<<<<< HEAD
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
+=======
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 
 esrecurse@^4.1.0:
   version "4.2.1"
@@ -2622,6 +2658,14 @@ fsevents@^1.1.2:
     nan "^2.9.2"
     node-pre-gyp "^0.9.0"
 
+fullpage-react@^3.0.33:
+  version "3.0.33"
+  resolved "https://registry.yarnpkg.com/fullpage-react/-/fullpage-react-3.0.33.tgz#52bffa6b24ddf7ca73f82ac0993c00a2815063f1"
+  dependencies:
+    react-fns "^1.4.0"
+    scroll-swipe "0.0.17"
+    window-or-global "^1.0.1"
+
 function-bind@^1.0.2, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -2893,6 +2937,18 @@ ignore-walk@^3.0.1:
   resolved "https://registry.yarnpkg.com/ignore-walk/-/ignore-walk-3.0.1.tgz#a83e62e7d272ac0e3b551aaa82831a19b69f82f8"
   dependencies:
     minimatch "^3.0.4"
+
+import-cwd@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
+  dependencies:
+    import-from "^2.1.0"
+
+import-from@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/import-from/-/import-from-2.1.0.tgz#335db7f2a7affd53aaa471d4b8021dee36b7f3b1"
+  dependencies:
+    resolve-from "^3.0.0"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -3169,14 +3225,23 @@ isomorphic-fetch@^2.1.1:
     whatwg-fetch ">=0.10.0"
 
 js-base64@^2.1.9:
+<<<<<<< HEAD
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.5.tgz#e293cd3c7c82f070d700fc7a1ca0a2e69f101f92"
+=======
+  version "2.4.8"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.8.tgz#57a9b130888f956834aa40c5b165ba59c758f033"
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
+<<<<<<< HEAD
 js-yaml@^3.4.3:
+=======
+js-yaml@^3.4.3, js-yaml@^3.9.0:
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   dependencies:
@@ -3190,10 +3255,13 @@ js-yaml@~3.7.0:
     argparse "^1.0.7"
     esprima "^2.6.0"
 
+<<<<<<< HEAD
 jsesc@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-1.3.0.tgz#46c3fec8c1892b12b0833db9bc7622176dbab34b"
 
+=======
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 jsesc@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-2.5.1.tgz#e421a2a8e20d6b0819df28908f782526b96dd1fe"
@@ -3206,9 +3274,19 @@ json-loader@^0.5.4:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/json-loader/-/json-loader-0.5.7.tgz#dca14a70235ff82f0ac9a3abeb60d337a365185d"
 
+json-parse-better-errors@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
+
 json-schema-traverse@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz#349a6d44c53a51de89b40805c5d5e59b417d3340"
+
+json2mq@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/json2mq/-/json2mq-0.2.0.tgz#b637bd3ba9eabe122c83e9720483aeb10d2c904a"
+  dependencies:
+    string-convert "^0.2.0"
 
 json5@^0.5.0, json5@^0.5.1:
   version "0.5.1"
@@ -3305,10 +3383,6 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
     js-tokens "^3.0.0"
-
-lottie-web@^5.1.3:
-  version "5.1.18"
-  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.1.18.tgz#e026619302caf83eee4edf72bb81add415da2604"
 
 lru-cache@^4.0.1, lru-cache@^4.1.1:
   version "4.1.3"
@@ -3914,6 +3988,13 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
+parse-json@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-4.0.0.tgz#be35f5425be1f7f6c747184f98a788cb99477ee0"
+  dependencies:
+    error-ex "^1.3.1"
+    json-parse-better-errors "^1.0.1"
+
 parseurl@~1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
@@ -4071,6 +4152,16 @@ postcss-load-config@^1.2.0:
     postcss-load-options "^1.2.0"
     postcss-load-plugins "^2.3.0"
 
+<<<<<<< HEAD
+=======
+postcss-load-config@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-2.0.0.tgz#f1312ddbf5912cd747177083c5ef7a19d62ee484"
+  dependencies:
+    cosmiconfig "^4.0.0"
+    import-cwd "^2.0.0"
+
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 postcss-load-options@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/postcss-load-options/-/postcss-load-options-1.2.0.tgz#b098b1559ddac2df04bc0bb375f99a5cfe2b6d8c"
@@ -4094,6 +4185,7 @@ postcss-loader@2.0.10:
     postcss-load-config "^1.2.0"
     schema-utils "^0.3.0"
 
+<<<<<<< HEAD
 postcss-loader@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-2.1.5.tgz#3c6336ee641c8f95138172533ae461a83595e788"
@@ -4101,6 +4193,15 @@ postcss-loader@^2.1.5:
     loader-utils "^1.1.0"
     postcss "^6.0.0"
     postcss-load-config "^1.2.0"
+=======
+postcss-loader@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-2.1.6.tgz#1d7dd7b17c6ba234b9bed5af13e0bea40a42d740"
+  dependencies:
+    loader-utils "^1.1.0"
+    postcss "^6.0.0"
+    postcss-load-config "^2.0.0"
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
     schema-utils "^0.4.0"
 
 postcss-merge-idents@^2.1.5:
@@ -4412,6 +4513,13 @@ qs@6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
+<<<<<<< HEAD
+=======
+qs@^6.5.1:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
+
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 query-string@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
@@ -4496,6 +4604,13 @@ react-dom@^16.3.2:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
+react-fns@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-fns/-/react-fns-1.4.0.tgz#7b74017f9850849560dfe98f98bba3f7948495b5"
+  dependencies:
+    qs "^6.5.1"
+    react-media "^1.6.1"
+
 react-hot-loader@4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.1.3.tgz#b4ceca7961cc08451f8199a24a5753a749edd9ce"
@@ -4515,12 +4630,13 @@ react-lifecycles-compat@^3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
-react-lottie@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/react-lottie/-/react-lottie-1.2.3.tgz#8544b96939e088658072eea5e12d912cdaa3acc1"
+react-media@^1.6.1:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/react-media/-/react-media-1.8.0.tgz#b86d6d62313f95d53af7d06e23d4f49adfb131d3"
   dependencies:
-    babel-runtime "^6.26.0"
-    lottie-web "^5.1.3"
+    invariant "^2.2.2"
+    json2mq "^0.2.0"
+    prop-types "^15.5.10"
 
 react-overlays@^0.8.0:
   version "0.8.3"
@@ -4674,6 +4790,7 @@ regexpu-core@^1.0.0:
     regjsgen "^0.2.0"
     regjsparser "^0.1.4"
 
+<<<<<<< HEAD
 regexpu-core@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/regexpu-core/-/regexpu-core-2.0.0.tgz#49d038837b8dcf8bfa5b9a42139938e6ea2ae240"
@@ -4682,6 +4799,8 @@ regexpu-core@^2.0.0:
     regjsgen "^0.2.0"
     regjsparser "^0.1.4"
 
+=======
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 regexpu-core@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/regexpu-core/-/regexpu-core-4.1.3.tgz#fb81616dbbc2a917a7419b33f8379144f51eb8d0"
@@ -4752,9 +4871,20 @@ require-from-string@^1.1.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-1.2.1.tgz#529c9ccef27380adfec9a2f965b649bbee636418"
 
+<<<<<<< HEAD
+=======
+require-from-string@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
+
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
+
+resolve-from@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
 
 resolve-url@^0.2.1:
   version "0.2.1"
@@ -4835,6 +4965,10 @@ schema-utils@^0.4.0, schema-utils@^0.4.2, schema-utils@^0.4.5:
   dependencies:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
+
+scroll-swipe@0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/scroll-swipe/-/scroll-swipe-0.0.17.tgz#31bc1cb74f174a3d596a9a942a05075de54e4285"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1:
   version "5.5.0"
@@ -5114,6 +5248,13 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
 
+<<<<<<< HEAD
+=======
+string-convert@^0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/string-convert/-/string-convert-0.2.1.tgz#6982cc3049fbb4cd85f8b24568b9d9bf39eeff97"
+
+>>>>>>> bab6bdcd482d94a2bb85b458a2f122ef96a032f9
 string-hash@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/string-hash/-/string-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
@@ -5628,6 +5769,10 @@ wide-align@^1.1.0:
   resolved "https://registry.yarnpkg.com/wide-align/-/wide-align-1.1.2.tgz#571e0f1b0604636ebc0dfc21b0339bbe31341710"
   dependencies:
     string-width "^1.0.2"
+
+window-or-global@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/window-or-global/-/window-or-global-1.0.1.tgz#dbe45ba2a291aabc56d62cf66c45b7fa322946de"
 
 window-size@0.1.0:
   version "0.1.0"

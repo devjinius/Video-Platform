@@ -95,6 +95,13 @@ body, html {
   margin-bottom: 37px;
 }
 
+.wrap-input50 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 30px;
+}
+
 .input100 {
   font-family: Arial;
   font-size: 15px;

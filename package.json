@@ -7,8 +7,11 @@
     "@zeit/next-css": "^0.2.0",
     "css-loader": "^1.0.0",
     "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
     "fullpage-react": "^3.0.33",
-    "next": "^6.0.1",
+    "graphql": "^0.13.2",
+    "graphql-yoga": "^1.16.1",
+    "next": "^6.1.1",
     "open-color": "^1.6.3",
     "postcss-loader": "^2.1.5",
     "react": "^16.3.2",
@@ -20,12 +23,13 @@
   },
   "scripts": {
     "dev": "next",
-    "start": "node app.js",
+    "start": "nodemon --exec babel-node app.js",
     "build": "next build"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
   }
 }

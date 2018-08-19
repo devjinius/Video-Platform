@@ -28,10 +28,6 @@ const initialState = Map({
       grecaptcha: '',
       agreeToTerm: false
     }),
-    exists: Map({
-      custEmail: false,
-      custPasswd: false
-    }),
     error: null
   }),
   login: Map({

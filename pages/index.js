@@ -7,9 +7,9 @@ import PageTemplate from 'components/PageTemplate/PageTemplate';
 
 export default () => (
   <>
-    <PageTemplate>
-      <Liked />
-      <Video />
-    </PageTemplate>
+  <PageTemplate>
+    <Liked />
+    <Video />
+  </PageTemplate>
   </>
 );

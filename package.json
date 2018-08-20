@@ -15,6 +15,7 @@
     "immutable": "^3.8.2",
     "next": "^6.1.1",
     "next-redux-wrapper": "^2.0.0",
+    "nodemon": "^1.18.3",
     "open-color": "^1.6.3",
     "pg": "^7.4.3",
     "pg-hstore": "^2.3.2",
